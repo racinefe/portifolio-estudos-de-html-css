@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+:root {
+    --cor-primaria:#000000;
+    --cor-secundaria:#f6f6f6;
+    --cor-terciaria:#22D4FD;
+    --cor-hover:#272727;
+
+    --font-primaria:'Sarala', sans-serif;
+    --font-secundaria:'Righteous', cursive;
+
+}
 * {
     margin: 0;
     padding: 0;
 }
 body {
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 .cabecalho {
     padding: 2% 0% 0% 15%;
@@ -17,10 +27,11 @@ body {
     
 }
 .cabecalho__menu__link {
-    font-family: 'Sarala', sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
+    text-decoration: none;
 }
 .apresentacao {
     display: flex;
@@ -37,14 +48,14 @@ body {
 }
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Righteous', cursive;
+    font-family: var(--font-secundaria);
 }
 .destaque-titulo {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;
-    font-family: 'Sarala', sans-serif;
+    font-family: var(--font-primaria);
 }
 .apresentacao__btn {
     display: flex;
@@ -54,7 +65,7 @@ body {
     gap: 32px;
 }
 .apresentacao__btn__titulo{
-    font-family: 'Righteous', cursive;
+    font-family: var(--font-secundaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -65,16 +76,16 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     font-weight: 600;
     font-size: 24px;
     padding: 21.5px 0 ;
     text-decoration: none;
-    color: #f6f6f6;
+    color: var(--cor-secundaria);
     font-family: 'Sarala', sans-serif;
 }
 .apresentacao__btn__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
     transition: 1s;
 
 }
@@ -84,11 +95,11 @@ body {
     border-radius: 20px;
 }
 .rodape {
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color:var(--cor-terciaria);
     text-align: center;
     padding: 24px;
-    font-family: 'Sarala', sans-serif;
+    font-family: var(--font-primaria);
     font-size: 20px;
     font-weight: 400;
 }
