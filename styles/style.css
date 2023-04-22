@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
 :root {
-    --cor-primaria:#000000;
-    --cor-secundaria:#f6f6f6;
-    --cor-terciaria:#22D4FD;
-    --cor-hover:#272727;
+    --cor-primaria:#393E46;
+    --cor-secundaria:#F7F7F7;
+    --cor-terciaria:#F2E7D5;
+    --cor-hover:#6D9886;
 
     --font-primaria:'Sarala', sans-serif;
     --font-secundaria:'Righteous', cursive;
@@ -93,6 +93,9 @@ body {
     width: 550px;
     height: 600px;
     border-radius: 20px;
+}
+.img--icon {
+    opacity: 50%;
 }
 .rodape {
     color: var(--cor-primaria);
