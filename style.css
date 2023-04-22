@@ -8,14 +8,25 @@ body {
     background-color: #000000;
     color: #F6F6F6;
 }
-.destaque-titulo {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    
+}
+.cabecalho__menu__link {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
     color: #22D4FD;
 }
 .apresentacao {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 8% 15%;
+    padding: 5% 15%;
     
 }
 .apresentacao__conteudo {
@@ -27,6 +38,9 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Righteous', cursive;
+}
+.destaque-titulo {
+    color: #22D4FD;
 }
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;
