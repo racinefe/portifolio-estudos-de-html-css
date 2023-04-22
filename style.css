@@ -1,8 +1,57 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
-
-strong{
+.destaque-titulo {
     color: #22D4FD;
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10% 15%;
+    
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+}
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+}
+.apresentacao__btn {
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__btn__link {
+    background-color: #22D4FD;
+    width: 250px;
+    text-align: center;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 21.5px 0 ;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Sarala', sans-serif;
+}
+.img {
+    width: 550px;
+    height: 600px;
+    border-radius: 20px;
+    
 }
